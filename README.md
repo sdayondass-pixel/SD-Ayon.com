@@ -1,1 +1,0 @@
-# SD-Ayon.com
