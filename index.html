@@ -17,38 +17,62 @@
 <a href="https://youtube.com/@sdayondas?si=oKjEp5NdX6tPWqlL" target="_blank">YouTube</a><br><br>
 <a href="https://www.facebook.com/share/1DTShKQnh7/" target="_blank"> Ayon Facebook Page</a><br><br>
 <a href="https://sdayondass-pixel.github.io/Ayon-Das.com/" target="_blank">Ridhi Roy Page</a>
-    <h2 style="text-align: center; color: blue;">This is my first website</h2>
+   <br><br>
 
-    <form action="#" method="post">
-        <fieldset>
-            <legend>Contact us</legend>
-             Your Email <br>
-        <input type="email" name="email" placeholder="Enter your email"><br>
-        Your Username <br>
-        <input type="text" name="username" placeholder="Enter your username"><br>
-        Your Password <br>
-        <input type="password" name="password" placeholder="Enter your password"><br>
-        <button type="submit">Send</button>
-        Your Gender <br>
-        <input type="radio" name="gender" value="male"> Male
-        <input type="radio" name="gender" value="female"> Female
-        <input type="radio" name="gender" value="others"> Others
-        </fieldset><br><br>
-        </form>
+        <h1 style="text-align: center;" >Sign Up Form </h1>
+<hr>
+<br>
+<form>
+<label for="name">Name:</label>
+<input type="text" id="name" name="name" required>
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" required>
 
-<h1>Choose your Country</h1>
-<select >
-    
-    <option value="Bangladesh">Bangladesh</option>
-    <option value="India">India</option>
-    <option value="Russia">Russia</option>
-    <option value="China">China</option>
+<label for="pass">Password:</label>
+<input type="password" id="pass" name="pass" required>
+<label for="age">Age:</label>
+<input type="number" id="age" name="age" required><br>
+<label for="gender">Gender:</label>
+<select id="gender" name="gender" required>
+    <option value="">Select Gender</option>
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+    <option value="other">Other</option><br><br>
+    <br>
+    <label for="phone">Phone:</label>
+    <input type="phone" id="phone" name="phone" placeholder="123456789" required>
+    <select name="code">
+        <option value="+880">+880</option>
+        <option value="+1">+1</option>
+        <option value="+44">+44</option>
+        <option value="+91">+91</option><br>
+        <br>
+        <label for="coyntry">Country</label>
+        <input list="con" >
+        <datalist id="con">
+            <option value="Bangladesh"></option>
+            <option value="Russia"></option>
+            <option value="India"></option>
+            <option value="Canada"></option>
+        </datalist>
+<br>
+    </select> <br><br>
+  <label for="date">Date of birth:</label>
+  <input type="date" id="date" required>
+  <br>
+  <label for="time">Time:</label>
+  <input type="time" id="time"name="tm"><br>
+  <label for="Color">Color:</label>
+  <input type="color" id="color" name="col"><br>
+  <label for="file">File:</label>
+  <input type="file" id="file" name="file"><br>
+  
+  <textarea name="comment" col="30" row="30">Comment:</textarea>
+  <br>
+  <input type="Submit" value="Send">
+  <input type="Reset" value="Reset">
+</form>
 
-</select><br><br>
-<label for="message">Your Message:</label><br>
-<textarea rows="40" cols="50" placeholder="Write your message here">
-
-</textarea>
 <image>
 <img src="https://upload.wikimedia.org/wikipedia/commons/c/c5/Best_Nature_Picture_of_the_day.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original">
 </image>
